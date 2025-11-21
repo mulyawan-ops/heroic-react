@@ -62,30 +62,6 @@ Convert the `React.createElement()` code from Exercise 2 to JSX syntax.
 - Conditionally render elements
 - Use template literals in JSX
 
-## 💡 Hints
-
-```jsx
-// Basic JSX
-const element = <h1>Hello World</h1>;
-
-// With JavaScript expressions
-const name = 'John';
-const element = <h1>Hello, {name}!</h1>;
-
-// With attributes
-<div className="container" id="main">Content</div>
-
-// With styles
-<div style={{ color: 'red', fontSize: '20px' }}>Styled</div>
-
-// Self-closing
-<img src="image.jpg" alt="Description" />
-
-// Conditional rendering
-{isLoggedIn && <WelcomeMessage />}
-{isLoggedIn ? <Logout /> : <Login />}
-```
-
 ## 🧪 Testing
 
 Open `exercise.html` with Live Server and you should see:

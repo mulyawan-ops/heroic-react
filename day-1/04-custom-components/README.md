@@ -91,41 +91,6 @@ Create your first custom React components and compose them together.
 - Experiment with different component compositions
 - Add more styling to your components
 
-## 💡 Hints
-
-```jsx
-// Simple component
-function Header() {
-  return <h1>My Awesome Website</h1>;
-}
-
-// Another component
-function Message() {
-  return <p>Welcome to React!</p>;
-}
-
-// Using components together
-function App() {
-  return (
-    <div>
-      <Header />
-      <Message />
-      <Message />
-    </div>
-  );
-}
-
-// Component with more JSX
-function Card() {
-  return (
-    <div style={{ padding: '20px', border: '1px solid #ddd' }}>
-      <h2>Card Title</h2>
-      <p>Card content</p>
-    </div>
-  );
-}
-```
-
 ## 🧪 Testing
 
 Open `exercise.html` with Live Server and you should see:

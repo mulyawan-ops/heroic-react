@@ -46,30 +46,6 @@ Recreate the same "Hello World" output from Exercise 1, but this time using Reac
 - Add event handlers using props
 - Experiment with different HTML elements
 
-## 💡 Hints
-
-```javascript
-// React.createElement(type, props, ...children)
-React.createElement('h1', { className: 'title' }, 'Hello World');
-
-// With styles
-React.createElement(
-  'div',
-  {
-    style: { color: 'red', fontSize: '20px' },
-  },
-  'Styled text',
-);
-
-// With nested children
-React.createElement(
-  'div',
-  null,
-  React.createElement('h1', null, 'Title'),
-  React.createElement('p', null, 'Paragraph'),
-);
-```
-
 ## 🧪 Testing
 
 Open `exercise.html` with Live Server and you should see:

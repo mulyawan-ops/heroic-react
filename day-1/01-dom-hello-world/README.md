@@ -32,14 +32,6 @@ Create a simple webpage that displays "Hello World" using **only JavaScript** (n
 - Apply multiple CSS styles to make it visually appealing
 - Create a function to generate multiple elements
 
-## 💡 Hints
-
-- Use `document.createElement('tagName')` to create elements
-- Use `element.textContent` or `element.innerText` to set text
-- Use `element.className` to set CSS classes
-- Use `element.style.propertyName` to set inline styles
-- Use `document.body.appendChild(element)` to add to the page
-
 ## 🧪 Testing
 
 Open `exercise.html` with Live Server and you should see:
